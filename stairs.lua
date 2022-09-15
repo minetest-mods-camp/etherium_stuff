@@ -71,7 +71,6 @@ stairsplus:register_all("etherium_stuff", "glass", "etherium_stuff:glass", {
 	sounds = default.node_sound_glass_defaults(),
 	drawtype = "glasslike_framed_optional",
 	paramtype = "light",
-	--paramtype2 = "glasslikeliquidlevel",
 })
 
 stairsplus:register_all("etherium_stuff", "crystal_glass", "etherium_stuff:crystal_glass", {
@@ -81,7 +80,6 @@ stairsplus:register_all("etherium_stuff", "crystal_glass", "etherium_stuff:cryst
 	sounds = default.node_sound_glass_defaults(),
 	drawtype = "glasslike_framed_optional",
 	paramtype = "light",
-	--paramtype2 = "glasslikeliquidlevel",
 	light_source = default.LIGHT_MAX,
 })
 

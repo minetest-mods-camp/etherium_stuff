@@ -123,3 +123,11 @@ stairs.register_stair_and_slab("etherium_crystal_glass", "etherium_stuff:crystal
 	default.LIGHT_MAX)
 
 end
+
+--Add place_in_air to stairs
+
+local etherium_stairs = {"stairs:slab_etherium_sandstone", "stairs:slab_etherium_sandstone_brick", "stairs:slab_etherium_sandstone_block", "stairs:slab_etherium_glass", "stairs:slab_etherium_crystal_glass", "stairs:stair_etherium_sandstone", "stairs:stair_etherium_sandstone_brick", "stairs:stair_etherium_sandstone_block", "stairs:stair_etherium_glass", "stairs:stair_etherium_crystal_glass", "stairs:stair_inner_etherium_sandstone", "stairs:stair_inner_etherium_sandstone_brick", "stairs:stair_inner_etherium_sandstone_block", "stairs:stair_inner_etherium_glass", "stairs:stair_inner_etherium_crystal_glass", "stairs:stair_outer_etherium_sandstone", "stairs:stair_outer_etherium_sandstone_brick", "stairs:stair_outer_etherium_sandstone_block", "stairs:stair_outer_etherium_glass", "stairs:stair_outer_etherium_crystal_glass"}
+
+for _,stair in ipairs(etherium_stairs) do
+    minetest.override_item(stair, {on_secondary_use = place_in_air})
+end

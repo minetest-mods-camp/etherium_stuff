@@ -36,8 +36,7 @@ stairs.register_all("etherium_crystal_glass", "etherium_stuff:crystal_glass",
 	{"etherium_crystal_glass.png"},
 	S("Etherium Crystal Glass Stair"),
 	S("Etherium Crystal Glass Slab"),
-	default.node_sound_glass_defaults(),
-	default.LIGHT_MAX)
+	default.node_sound_glass_defaults())
 
 
 -- Stairs Plus (in More Blocks)
@@ -119,8 +118,7 @@ stairs.register_stair_and_slab("etherium_crystal_glass", "etherium_stuff:crystal
 	{"etherium_crystal_glass.png"},
 	S("Etherium Crystal Glass Stair"),
 	S("Etherium Crystal Glass Slab"),
-	default.node_sound_glass_defaults(),
-	default.LIGHT_MAX)
+	default.node_sound_glass_defaults())
 
 end
 

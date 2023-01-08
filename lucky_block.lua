@@ -21,7 +21,7 @@ lucky_block:add_blocks({
 	{"dro", {"etherium_stuff:torch"}, 8},
 
 	{"fal", {"etherium_stuff:sand", "etherium_stuff:sand", "etherium_stuff:sand", "etherium_stuff:sand"}, 0, true, 6},
-	{"fal", {"etherium_stuff:sand", "etherium_stuff:sand", "etherium_stuff:sand", "etherium_stuff:sand","etherium_stuff:sand","etherium_stuff:sand"}, 1},
+	{"fal", {"etherium_stuff:sand", "etherium_stuff:sand", "etherium_stuff:sand", "etherium_stuff:sand","etherium_stuff:sand","etherium_stuff:sand"}, 1, true, 7},
 	{"tro", "etherium_stuff:crystal_glass", "tnt_ignite", true},
 	{"tro", "tnt:tnt_burning", "tnt_ignite", false},
 	{"lig", "etherium_stuff:sand"},
@@ -36,7 +36,7 @@ lucky_block:add_blocks({
 	{"sch", "largecactus", 0, true, {{"default:cactus", "etherium_stuff:sandstone_brick"}}},
 
 	{"sch", "sandtrap", 1, true, {{"default:sand", "etherium_stuff:sand"}} },
-	{"fal", {"etherium_stuff:crystal_water_source", "etherium_stuff:crystal_water_source", "etherium_stuff:crystal_water_source", "etherium_stuff:crystal_water_source","etherium_stuff:crystal_water_source","etherium_stuff:crystal_water_source"}, 4},
+	{"fal", {"etherium_stuff:crystal_water_source", "etherium_stuff:crystal_water_source", "etherium_stuff:crystal_water_source", "etherium_stuff:crystal_water_source","etherium_stuff:crystal_water_source","etherium_stuff:crystal_water_source"}, 1, true, 10},
 
 
 	

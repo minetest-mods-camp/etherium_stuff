@@ -73,7 +73,7 @@ if not minetest.get_modpath("technic") then
 	})
 	minetest.register_craft({
 	type = "shapeless",
-	output = "etherium_stuff:crystal_glass 4",
+	output = "etherium_stuff:crystal_glass",
 	recipe = {
 		    "etherium_stuff:glass", "ethereal:crystal_spike"
 		}

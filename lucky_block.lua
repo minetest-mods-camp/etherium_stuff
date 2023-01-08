@@ -36,7 +36,7 @@ lucky_block:add_blocks({
 	{"sch", "largecactus", 0, true, {{"default:cactus", "etherium_stuff:sandstone_brick"}}},
 
 	{"sch", "sandtrap", 1, true, {{"default:sand", "etherium_stuff:sand"}} },
-	{"fal", {"etherium_stuff:crystal_water_source", "etherium_stuff:crystal_water_source", "eetherium_stuff:crystal_water_source", "etherium_stuff:crystal_water_source","etherium_stuff:crystal_water_source","etherium_stuff:crystal_water_source"}, 4},
+	{"fal", {"etherium_stuff:crystal_water_source", "etherium_stuff:crystal_water_source", "etherium_stuff:crystal_water_source", "etherium_stuff:crystal_water_source","etherium_stuff:crystal_water_source","etherium_stuff:crystal_water_source"}, 4},
 
 
 	
